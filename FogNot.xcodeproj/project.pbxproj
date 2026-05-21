@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F62238092F8649F900172CDE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F62238082F8649F900172CDE /* FirebaseAuth */; };
+		F622380B2F864A0200172CDE /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = F622380A2F864A0200172CDE /* FirebaseCore */; };
+		F622380D2F864A1300172CDE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F622380C2F864A1300172CDE /* FirebaseFirestore */; };
+		F62238102F864D6700172CDE /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = F622380F2F864D6700172CDE /* GoogleSignIn */; };
+		F676D1022F8792C600B5374E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F676D1012F8792C600B5374E /* WidgetKit.framework */; };
+		F676D1042F8792C600B5374E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F676D1032F8792C600B5374E /* SwiftUI.framework */; };
+		F676D1152F8792C700B5374E /* FogNotWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F676D1002F8792C600B5374E /* FogNotWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F62237AF2F85F14100172CDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F62237972F85F13F00172CDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F622379E2F85F13F00172CDE;
+			remoteInfo = FogNot;
+		};
+		F62237B92F85F14100172CDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F62237972F85F13F00172CDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F622379E2F85F13F00172CDE;
+			remoteInfo = FogNot;
+		};
+		F676D1132F8792C700B5374E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F62237972F85F13F00172CDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F676D0FF2F8792C600B5374E;
+			remoteInfo = FogNotWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F676D1162F8792C700B5374E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F676D1152F8792C700B5374E /* FogNotWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F622379F2F85F13F00172CDE /* FogNot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FogNot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62237AE2F85F14100172CDE /* FogNotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FogNotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62237B82F85F14100172CDE /* FogNotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FogNotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F676D1002F8792C600B5374E /* FogNotWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FogNotWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F676D1012F8792C600B5374E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F676D1032F8792C600B5374E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F676D1202F88874E00B5374E /* FogNotWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FogNotWidgetExtension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F62237D32F85FEEC00172CDE /* Exceptions for "FogNotTests" folder in "FogNot" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				FogNotTests.swift,
+			);
+			target = F622379E2F85F13F00172CDE /* FogNot */;
+		};
+		F62237D42F85FEEC00172CDE /* Exceptions for "FogNotTests" folder in "FogNotTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				FogNotTests.swift,
+			);
+			target = F62237AD2F85F14100172CDE /* FogNotTests */;
+		};
+		F62237FD2F863DBF00172CDE /* Exceptions for "FogNot" folder in "FogNotTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"スクリーンショット 2026-04-08 16.39.29.png",
+			);
+			target = F62237AD2F85F14100172CDE /* FogNotTests */;
+		};
+		F62237FE2F863DBF00172CDE /* Exceptions for "FogNot" folder in "FogNotUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"スクリーンショット 2026-04-08 16.39.29.png",
+			);
+			target = F62237B72F85F14100172CDE /* FogNotUITests */;
+		};
+		F62238142F864F1B00172CDE /* Exceptions for "FogNot" folder in "FogNot" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F622379E2F85F13F00172CDE /* FogNot */;
+		};
+		F676D11A2F8792C700B5374E /* Exceptions for "FogNotWidget" folder in "FogNotWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F676D0FF2F8792C600B5374E /* FogNotWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F62237A12F85F13F00172CDE /* FogNot */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F62238142F864F1B00172CDE /* Exceptions for "FogNot" folder in "FogNot" target */,
+				F62237FD2F863DBF00172CDE /* Exceptions for "FogNot" folder in "FogNotTests" target */,
+				F62237FE2F863DBF00172CDE /* Exceptions for "FogNot" folder in "FogNotUITests" target */,
+			);
+			path = FogNot;
+			sourceTree = "<group>";
+		};
+		F62237BB2F85F14100172CDE /* FogNotUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FogNotUITests;
+			sourceTree = "<group>";
+		};
+		F62237D12F85FEEC00172CDE /* FogNotTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F62237D32F85FEEC00172CDE /* Exceptions for "FogNotTests" folder in "FogNot" target */,
+				F62237D42F85FEEC00172CDE /* Exceptions for "FogNotTests" folder in "FogNotTests" target */,
+			);
+			path = FogNotTests;
+			sourceTree = "<group>";
+		};
+		F676D1052F8792C600B5374E /* FogNotWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F676D11A2F8792C700B5374E /* Exceptions for "FogNotWidget" folder in "FogNotWidgetExtension" target */,
+			);
+			path = FogNotWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F622379C2F85F13F00172CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F622380B2F864A0200172CDE /* FirebaseCore in Frameworks */,
+				F62238102F864D6700172CDE /* GoogleSignIn in Frameworks */,
+				F62238092F8649F900172CDE /* FirebaseAuth in Frameworks */,
+				F622380D2F864A1300172CDE /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62237AB2F85F14100172CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62237B52F85F14100172CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F676D0FD2F8792C600B5374E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F676D1042F8792C600B5374E /* SwiftUI.framework in Frameworks */,
+				F676D1022F8792C600B5374E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F62237962F85F13F00172CDE = {
+			isa = PBXGroup;
+			children = (
+				F676D1202F88874E00B5374E /* FogNotWidgetExtension.entitlements */,
+				F62237A12F85F13F00172CDE /* FogNot */,
+				F62237BB2F85F14100172CDE /* FogNotUITests */,
+				F62237D12F85FEEC00172CDE /* FogNotTests */,
+				F676D1052F8792C600B5374E /* FogNotWidget */,
+				F62238072F8649CE00172CDE /* Frameworks */,
+				F62237A02F85F13F00172CDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F62237A02F85F13F00172CDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F622379F2F85F13F00172CDE /* FogNot.app */,
+				F62237AE2F85F14100172CDE /* FogNotTests.xctest */,
+				F62237B82F85F14100172CDE /* FogNotUITests.xctest */,
+				F676D1002F8792C600B5374E /* FogNotWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F62238072F8649CE00172CDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F676D1012F8792C600B5374E /* WidgetKit.framework */,
+				F676D1032F8792C600B5374E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F622379E2F85F13F00172CDE /* FogNot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F62237C22F85F14100172CDE /* Build configuration list for PBXNativeTarget "FogNot" */;
+			buildPhases = (
+				F622379B2F85F13F00172CDE /* Sources */,
+				F622379C2F85F13F00172CDE /* Frameworks */,
+				F622379D2F85F13F00172CDE /* Resources */,
+				F676D1162F8792C700B5374E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F676D1142F8792C700B5374E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F62237A12F85F13F00172CDE /* FogNot */,
+				F62237D12F85FEEC00172CDE /* FogNotTests */,
+			);
+			name = FogNot;
+			packageProductDependencies = (
+				F62238082F8649F900172CDE /* FirebaseAuth */,
+				F622380A2F864A0200172CDE /* FirebaseCore */,
+				F622380C2F864A1300172CDE /* FirebaseFirestore */,
+				F622380F2F864D6700172CDE /* GoogleSignIn */,
+			);
+			productName = FogNot;
+			productReference = F622379F2F85F13F00172CDE /* FogNot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F62237AD2F85F14100172CDE /* FogNotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F62237C52F85F14100172CDE /* Build configuration list for PBXNativeTarget "FogNotTests" */;
+			buildPhases = (
+				F62237AA2F85F14100172CDE /* Sources */,
+				F62237AB2F85F14100172CDE /* Frameworks */,
+				F62237AC2F85F14100172CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F62237B02F85F14100172CDE /* PBXTargetDependency */,
+			);
+			name = FogNotTests;
+			packageProductDependencies = (
+			);
+			productName = FogNotTests;
+			productReference = F62237AE2F85F14100172CDE /* FogNotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F62237B72F85F14100172CDE /* FogNotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F62237C82F85F14100172CDE /* Build configuration list for PBXNativeTarget "FogNotUITests" */;
+			buildPhases = (
+				F62237B42F85F14100172CDE /* Sources */,
+				F62237B52F85F14100172CDE /* Frameworks */,
+				F62237B62F85F14100172CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F62237BA2F85F14100172CDE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F62237BB2F85F14100172CDE /* FogNotUITests */,
+			);
+			name = FogNotUITests;
+			packageProductDependencies = (
+			);
+			productName = FogNotUITests;
+			productReference = F62237B82F85F14100172CDE /* FogNotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F676D0FF2F8792C600B5374E /* FogNotWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F676D1192F8792C700B5374E /* Build configuration list for PBXNativeTarget "FogNotWidgetExtension" */;
+			buildPhases = (
+				F676D0FC2F8792C600B5374E /* Sources */,
+				F676D0FD2F8792C600B5374E /* Frameworks */,
+				F676D0FE2F8792C600B5374E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F676D1052F8792C600B5374E /* FogNotWidget */,
+			);
+			name = FogNotWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = FogNotWidgetExtension;
+			productReference = F676D1002F8792C600B5374E /* FogNotWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F62237972F85F13F00172CDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					F622379E2F85F13F00172CDE = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					F62237AD2F85F14100172CDE = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = F622379E2F85F13F00172CDE;
+					};
+					F62237B72F85F14100172CDE = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = F622379E2F85F13F00172CDE;
+					};
+					F676D0FF2F8792C600B5374E = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = F622379A2F85F13F00172CDE /* Build configuration list for PBXProject "FogNot" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F62237962F85F13F00172CDE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F62238062F86480200172CDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F622380E2F864D6700172CDE /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F62237A02F85F13F00172CDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F622379E2F85F13F00172CDE /* FogNot */,
+				F62237AD2F85F14100172CDE /* FogNotTests */,
+				F62237B72F85F14100172CDE /* FogNotUITests */,
+				F676D0FF2F8792C600B5374E /* FogNotWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F622379D2F85F13F00172CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62237AC2F85F14100172CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62237B62F85F14100172CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F676D0FE2F8792C600B5374E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F622379B2F85F13F00172CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62237AA2F85F14100172CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62237B42F85F14100172CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F676D0FC2F8792C600B5374E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F62237B02F85F14100172CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F622379E2F85F13F00172CDE /* FogNot */;
+			targetProxy = F62237AF2F85F14100172CDE /* PBXContainerItemProxy */;
+		};
+		F62237BA2F85F14100172CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F622379E2F85F13F00172CDE /* FogNot */;
+			targetProxy = F62237B92F85F14100172CDE /* PBXContainerItemProxy */;
+		};
+		F676D1142F8792C700B5374E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F676D0FF2F8792C600B5374E /* FogNotWidgetExtension */;
+			targetProxy = F676D1132F8792C700B5374E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F62237C02F85F14100172CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = AY4LS6AZR8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F62237C12F85F14100172CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = AY4LS6AZR8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F62237C32F85F14100172CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AY4LS6AZR8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FogNot/Info.plist;
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "課題の締め切りをカレンダーに登録するために使用します。";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Manato-Ueno.FogNot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F62237C42F85F14100172CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FogNot/FogNotRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AY4LS6AZR8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FogNot/Info.plist;
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "課題の締め切りをカレンダーに登録するために使用します。";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Manato-Ueno.FogNot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F62237C62F85F14100172CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AY4LS6AZR8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Manato-Ueno.FogNotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FogNot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FogNot";
+			};
+			name = Debug;
+		};
+		F62237C72F85F14100172CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AY4LS6AZR8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Manato-Ueno.FogNotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FogNot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FogNot";
+			};
+			name = Release;
+		};
+		F62237C92F85F14100172CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AY4LS6AZR8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Manato-Ueno.FogNotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FogNot;
+			};
+			name = Debug;
+		};
+		F62237CA2F85F14100172CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AY4LS6AZR8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Manato-Ueno.FogNotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FogNot;
+			};
+			name = Release;
+		};
+		F676D1172F8792C700B5374E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = FogNotWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AY4LS6AZR8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FogNotWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FogNotWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Manato-Ueno.FogNot.FogNotWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F676D1182F8792C700B5374E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = FogNotWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AY4LS6AZR8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FogNotWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FogNotWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Manato-Ueno.FogNot.FogNotWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F622379A2F85F13F00172CDE /* Build configuration list for PBXProject "FogNot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62237C02F85F14100172CDE /* Debug */,
+				F62237C12F85F14100172CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F62237C22F85F14100172CDE /* Build configuration list for PBXNativeTarget "FogNot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62237C32F85F14100172CDE /* Debug */,
+				F62237C42F85F14100172CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F62237C52F85F14100172CDE /* Build configuration list for PBXNativeTarget "FogNotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62237C62F85F14100172CDE /* Debug */,
+				F62237C72F85F14100172CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F62237C82F85F14100172CDE /* Build configuration list for PBXNativeTarget "FogNotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62237C92F85F14100172CDE /* Debug */,
+				F62237CA2F85F14100172CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F676D1192F8792C700B5374E /* Build configuration list for PBXNativeTarget "FogNotWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F676D1172F8792C700B5374E /* Debug */,
+				F676D1182F8792C700B5374E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F62238062F86480200172CDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.12.0;
+			};
+		};
+		F622380E2F864D6700172CDE /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F62238082F8649F900172CDE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F62238062F86480200172CDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F622380A2F864A0200172CDE /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F62238062F86480200172CDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		F622380C2F864A1300172CDE /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F62238062F86480200172CDE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F622380F2F864D6700172CDE /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F622380E2F864D6700172CDE /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F62237972F85F13F00172CDE /* Project object */;
+}

@@ -133,6 +133,7 @@ struct AssignmentListView: View {
             .navigationBarHidden(true)
             .sheet(isPresented: $showingAddSheet) {
                 AddAssignmentView()
+                    .environmentObject(store)
             }
         }
         .environment(\.colorScheme, .light)

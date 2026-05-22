@@ -50,11 +50,10 @@ struct AddAssignmentView: View {
                                         }
                     
                     Section(header: Text("期限と通知").foregroundColor(.gray)) {
-                        DatePicker("提出期限", selection: $dueDate)
-                        
+                        DatePicker("提出期限", selection: $dueDate, displayedComponents: [.date, .hourAndMinute])
                         Toggle("リマインダー", isOn: $hasReminder)
                         if hasReminder {
-                            DatePicker("通知時間", selection: $reminderDate)
+                            DatePicker("通知時間", selection: $reminderDate, displayedComponents: [.date, .hourAndMinute])
                         }
                     }
                 }

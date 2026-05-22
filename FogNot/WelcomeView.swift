@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct WelcomeView: View {
-    @StateObject private var store = AssignmentStore()
     @State private var shouldNavigate = false
-    
+
     var body: some View {
         if shouldNavigate {
             MainView() // 起動後はメイン画面へ
